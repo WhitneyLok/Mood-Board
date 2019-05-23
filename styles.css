@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Just+Another+Hand|ZCOOL+KuaiLe');
+body{
+    background-image:url("https://i.pinimg.com/originals/0a/76/6f/0a766f6015ea33b18f312856ac59c6e0.gif");
+    background-size:124%;
+    background-repeat:no-repeat;
+}
+
+img{
+ width:350px;   
+}
+
+.pizza{
+    animation: opacityOnAndOff 2.5s ;
+    animation-fill-mode: forwards;
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 1;
+}
+
+@keyframes opacityOnAndOff {
+    0% {
+        opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.text{
+    position:absolute;
+    right:10%;
+    color:white;
+    border:white 20px solid;
+    width:50%;
+    background-image: linear-gradient(45deg, #ecf7f9, #8bd2da,#52bbc7,#0066ff);
+    animation: 5s shadow-pop-tr  ;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes shadow-pop-tr{0%{box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);}100%{box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px);}}@keyframes shadow-pop-tr{0%{box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);}100%{box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px);}}
+
+
+
+.mood{
+    font-size:50px;   
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.newer{
+    display:flex;
+
+}
+
+.click{
+    background-color: Transparent;
+    border: none;
+    outline:none;
+    right:40%;
+    position:absolute;
+    margin-top:180px;
+}
+
+.type{
+    margin-top:80px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 348px;
+    position: absolute;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 50px/normal "Times New Roman", Times, serif;
+    text-align:center;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("http://firealpaca.com/images/douga/alpaca_gifanime.gif");
+    background-position: 14% 22%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    background-size: 20% 300%;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(109,158,235,1) inset;
+    box-shadow: 2px 2px 2px 0 rgba(109,158,235,1) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.type{
+    width:100%;
+    height:100px;
+}
+
+.top{
+    position:relative;
+    font-size:100px;   
+    border:#99ff33 dashed 10px;
+    width:1000px;
+    left:22%;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-top:30px;
+    text-align:center;
+    -webkit-animation:elastic 1s ease 0s infinite normal;
+    -moz-animation:elastic 1s ease 0s infinite normal;
+    -ms-animation:elastic 1s ease 0s infinite normal;
+    animation:elastic 2s ease 0s infinite normal; 
+    
+}
+@-webkit-keyframes elastic {
+    0%{ -webkit-transform: scale(1); transform: scale(1); }
+    30%{ -webkit-transform: scaleX(1.25) scaleY(0.75); transform: scaleX(1.25) scaleY(0.75); }
+    40%{ -webkit-transform: scaleX(0.75) scaleY(1.25); transform: scaleX(0.75) scaleY(1.25); }
+    60%{ -webkit-transform: scaleX(1.15) scaleY(0.85); transform: scaleX(1.15) scaleY(0.85); }
+    100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+@keyframes elastic {
+    0%{ -ms-transform: scale(1); transform: scale(1); }
+    30%{ -ms-transform: scaleX(1.25) scaleY(0.75); transform: scaleX(1.25) scaleY(0.75); }
+    40%{ -ms-transform: scaleX(0.75) scaleY(1.25); transform: scaleX(0.75) scaleY(1.25); }
+    60%{ -ms-transform: scaleX(1.15) scaleY(0.85); transform: scaleX(1.15) scaleY(0.85); }
+    100%{ -ms-transform: scale(1); transform: scale(1); }
+}
+
